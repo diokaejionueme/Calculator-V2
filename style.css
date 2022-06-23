@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@500&display=swap');
+
+:root{
+    --main-font: 'Saira Semi Condensed', sans-serif;
+
+    --hollow-black: hsl(160, 47%, 4%);
+    --hollow-green: hsl(165, 32%, 20%);
+    --white: rgb(255, 255, 255);
+    --dull-grey: hsl(144, 11%, 63%);
+    --grey-ash: hsl(165, 2%, 43%);
+    --naija-green: hsl(115, 47%, 43%);
+    --dull-green: hsl(115, 47%, 43%);
+    --background-grey: hsl(0, 0%, 16%);
+
+}
+
+body{
+    display: flex;
+    background-color: var(--hollow-green);
+    font-family: var(--main-font);
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 30vw;
+
+}
+
+
+.main-cover{
+    /* margin: 0 auto; */
+    background-color: var(--background-grey);
+    width: 15.625rem;
+    /*height: 65vh;*/
+    border-radius: 1.3rem;
+    margin: 0 auto;
+    color: var(--white);
+    padding: 1rem 0.75rem;
+}
+
+.screen {
+    position: relative;
+    height: 10rem;
+}
+
+hr {
+    width: 12rem;
+    margin-left: 4rem;
+}
+
+.grid-4x {
+    display: grid;
+    grid-template-columns: repeat(4, 4fr);
+}
+
+.button {
+    display: relative;
+    margin: 1rem;
+    padding-left: 0.75rem;
+}
+.button:hover{
+    background-color:rgb(255, 255, 255);
+    color: black;
+    transition: 0.4s ease-in-out;
+}
+
+.text-input{
+    padding-top: 3rem;
+    text-align: right;
+}
+.result {
+
+    padding-top: 1.25rem;
+    text-align: right;
+    color: var(--naija-green);
+    font-size: xx-large;
+}
